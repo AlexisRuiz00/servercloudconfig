@@ -10,7 +10,6 @@ zuul:
     routes:
       sample-service: # Service to create as sample
       path: /sample/** #path that will be intercepted
-      path: /sample/**
       url: sample-service
       stripPrefix: false
       sensitiveHeaders:
