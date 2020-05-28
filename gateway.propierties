@@ -1,0 +1,15 @@
+
+server.port: 8085 #the default port used for zuul service
+  
+zuul.ignoredServices: '*'
+
+zuul.host.connect-timeout-millis: 20000
+zuul.host.socket-timeout-millis: 20000
+
+host.routes.sample-service: # Service to create as sample
+host.routes.path: /sample/** #path that will be intercepted
+host.routes.path: /sample/**
+host.routes.url: sample-service
+host.routes.stripPrefix: false
+host.routes.sensitiveHeaders
+     
