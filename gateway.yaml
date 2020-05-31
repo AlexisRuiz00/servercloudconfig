@@ -3,12 +3,9 @@ server:
   port: 8085 #the default port used for zuul service
   
 zuul:
-  ignoredServices: '*'
-  host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
-    routes:
-      activity:
-        path: /api/v1/
-        url: http://localhost:8081/api/v1/
+ ignoredServices: '*'
+  routes:
+    echo-service:
+      path: /*/**
+      url: http://localhost:8081/api/v1/
      
