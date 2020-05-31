@@ -10,5 +10,5 @@ zuul:
     routes:
       activity:
         path: /activity/** #path that will be intercepted
-        serviceId: activity
+        url: http://localhost/8081
      
