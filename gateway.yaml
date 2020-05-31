@@ -6,6 +6,6 @@ zuul:
   ignoredServices: '*'
   routes:
     activity:
-      path: /*/**
+      path: /activity/**
       url: http://localhost:8081/api/v1/
      
