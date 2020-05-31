@@ -8,4 +8,7 @@ zuul:
     activity:
       path: /activity/**
       serviceId: activity
+    login:
+      path: /login/**
+      serviceId: login
      
