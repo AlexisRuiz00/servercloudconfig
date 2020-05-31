@@ -5,7 +5,7 @@ server:
 zuul:
   ignoredServices: '*'
   routes:
-    echo-service:
+    activity:
       path: /*/**
       url: http://localhost:8081/api/v1/
      
