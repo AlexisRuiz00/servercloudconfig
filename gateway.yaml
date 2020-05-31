@@ -3,7 +3,7 @@ server:
   port: 8085 #the default port used for zuul service
   
 zuul:
- ignoredServices: '*'
+  ignoredServices: '*'
   routes:
     echo-service:
       path: /*/**
