@@ -9,6 +9,6 @@ zuul:
     socket-timeout-millis: 20000
     routes:
       activity:
-        path: /activity/** #path that will be intercepted
+        path: /*/** #path that will be intercepted
         url: http://localhost/8081
      
