@@ -1,3 +1,22 @@
-server.port: 8083
-mail.name: alexisruizgomez96@gmail.com
-mail.password: cici zxwq pryh tvni
+server:
+  :port: 8083
+  
+mail:
+  name: alexisruizgomez96@gmail.com
+  password: cici zxwq pryh tvni
+
+spring:
+  data:
+    mongodb:
+      host: 34.205.100.14
+      port: 27017
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: 54.235.23.223:8761/eureka/
+    healthcheck:
+      enabled: true
+    instance:
+      preferIpAddress: true
+      metadataMap.instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
