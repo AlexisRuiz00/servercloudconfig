@@ -7,7 +7,7 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://172.31.70.152/eureka/
+      defaultZone: http://54.235.23.223:8761/eureka/
   instance:
     preferIpAddress: true
     metadataMap:
