@@ -6,6 +6,8 @@ spring:
     mongodb:
       host: 34.205.100.14	
       port: 27017
+      username: root
+      password: bPR3FiDtNYzO
 
 eureka:
   client:
