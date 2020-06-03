@@ -4,7 +4,7 @@ server:
 spring:
  data:
     mongodb:
-      host: 34.205.100.14
+      host: 172.31.64.17
       port: 27017
 
 eureka:
