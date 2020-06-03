@@ -1,6 +1,12 @@
 server:
   port: 8081
 
+spring:
+ data:
+    mongodb:
+      host: 34.205.100.14
+      port: 27017
+
 eureka:
   client:
     healthcheck:
