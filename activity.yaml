@@ -4,7 +4,8 @@ server:
 spring:
   data:
     mongodb:
-      host: 34.205.100.14	
+      #host: 34.205.100.14	
+      host: 172.31.65.115
       port: 27017
 
 eureka:
@@ -13,7 +14,9 @@ eureka:
       enabled: true
     serviceUrl:
      #defaultZone: http://localhost:8761/eureka/
-      defaultZone: http://54.235.23.223:8761/eureka/
+     #defaultZone: http://54.235.23.223:8761/eureka/
+      defaultZone: http://172.31.70.152:8761/eureka/
+      
   instance:
     preferIpAddress: true
     metadataMap:
