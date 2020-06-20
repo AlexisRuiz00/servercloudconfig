@@ -8,7 +8,8 @@ eureka:
       enabled: true
     serviceUrl:
       #defaultZone: http://localhot:8761/eureka/
-      defaultZone: http://54.235.23.223:8761/eureka/
+      #defaultZone: http://54.235.23.223:8761/eureka/
+      defaultZone: http://172.31.70.152:8761/eureka/
   instance:
     preferIpAddress: true
     metadataMap:
