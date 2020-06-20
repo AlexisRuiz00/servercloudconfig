@@ -8,7 +8,8 @@ mail:
 spring:
   data:
     mongodb:
-      host: 34.205.100.14
+      #host: 34.205.100.14
+      host: 172.31.65.115
       port: 27017
 
 eureka:
